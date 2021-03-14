@@ -11,5 +11,6 @@ class EmailAddressParser
 
   def parse
     email_addresses.delete(" , ").split.uniq
+  end
 
 end
